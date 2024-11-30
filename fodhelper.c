@@ -22,7 +22,7 @@ void setRegistryValue(HKEY root, const char* path, const char* valueName, const 
         RegCloseKey(hKey);
     }
 }
-void generateRandomString(char *output) {   // generateds a random string for static edvasion.
+void generateRandomString(char *output) {   // generateds a random string for static edvasion sort of.
     const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     int length = rand() % 14 + 2;
     for (int i = 0; i < length; i++) {
